@@ -9,13 +9,13 @@ New-VM
 
 
 ## Step 2
-Power on VM
+**Power** on VM
 ```
 Start-VM
 ```
 
 ## Step 3
-Shutdown VM
+*Shutdown* VM
 ```
 Stop-VM -vmname server3
 ```
