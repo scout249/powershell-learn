@@ -1,7 +1,7 @@
 $xlfile = "C:\temp\IT_Info_Sheet_-_Template.xlsx"
 $result = Import-Excel $xlfile -WorksheetName "Server Roles"
-$title = "Fujitsu Network Inventory"
-$subtitle = "Michael Tam"
+$title = "XYZ Network Inventory"
+$subtitle = "Mono"
 
 
 $Document = New-OfficeWord -FilePath C:\temp\TestTable.docx
