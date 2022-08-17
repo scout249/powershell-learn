@@ -71,16 +71,6 @@ HK-C00000000361 Bluetooth Network Connection             11 Bluetooth Device (Pe
 HK-C00000000361 Ethernet                                 14 Intel(R) Ethernet Connection (4) I219-LM                  1 MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{80711E24-F040-4C09-BCD5-50A72CBD20FE}", SystemCreationClassName = "CIM_NetworkPort", SystemName = "HK-C00000000361.hk.fpca") MSFT_NetCompartment (InstanceID = ";55;") MSF...
 
 
-PS C:\Users\michael.tam> gip | select computername, interfacealias | ft
-
-ComputerName    InterfaceAlias
-------------    --------------
-HK-C00000000361 Wi-Fi
-HK-C00000000361 Ethernet 6
-HK-C00000000361 Ethernet 3
-HK-C00000000361 Ethernet 2
-HK-C00000000361 Bluetooth Network Connection
-HK-C00000000361 Ethernet
 
 
 PS C:\Users\michael.tam> $PSVersionTable
